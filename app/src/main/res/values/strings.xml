@@ -2,5 +2,6 @@
 <resources>
 
     <string name="app_name">Kiss Sensor</string>
+    <string name="action_settings">Settings</string>
 
 </resources>
