@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/sensor_preferences">
+
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/distance_labels"
+            android:entryValues="@array/distance_values"
+            android:maxLength="2"
+            android:dialogTitle="@string/pref_distance"
+            android:inputType="number"
+            android:key="@string/pref_distance_key"
+            android:summary="@string/pref_distance_summ"
+            android:title="@string/pref_distance" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
